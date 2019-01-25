@@ -51,13 +51,12 @@ main nav ul {
 main nav ul li {
     padding: 2em 2em 0 2em;
     width: 8.5em;
-    transition: background-color 0.5s;
-    transition-timing-function: ease-in-out;
+    transition: background-color 0.2s ease-in-out;
 }
 
 main nav ul li:hover{
-    /* background-color: #dbefff; */
-    background-image: linear-gradient( #cef4ff, #ffdcff);
+    background-color: #dbefff;
+    /* background-image: linear-gradient( #cef4ff, #ffdcff); */
     border-radius: 1em;
     cursor: pointer;
 }
