@@ -51,17 +51,17 @@ main nav ul {
 main nav ul li {
     padding: 2em 2em 0 2em;
     width: 8.5em;
+    border-radius: 1em;
     transition: background-color 0.2s ease-in-out;
 }
 
-main nav ul li:hover{
-    background-color: #dbefff;
+main nav ul li:hover {
+    background-color: #ecd4ff;
     /* background-image: linear-gradient( #cef4ff, #ffdcff); */
-    border-radius: 1em;
     cursor: pointer;
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
 
@@ -104,7 +104,7 @@ main nav ul li p {
     }
 
     main nav ul li {
-        padding: 0 1em 0 1em;
+        padding: 1em 1em 0 1em;
     }
 
     .text span {
@@ -135,3 +135,46 @@ main nav ul li p {
     }
 
 }
+
+@media only screen and (max-height: 768px) {
+    main {
+        grid-template-rows: 70% auto;
+    }
+
+    .text span {
+        font-size: 2em;
+    }
+
+    main nav ul li p {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-height: 420px) {
+    main {
+        grid-template-rows: 99% auto;
+    }
+
+    .text span {
+        font-size: 1.3em;
+    }
+
+    main nav ul li p {
+        font-size: 1em;
+    }
+
+    main nav ul li {
+        width: 6.5em;
+    }
+
+    main nav ul li img {
+        width: 3em;
+        height: auto;
+    }
+}
+
+@media only screen and (height: 375px) {
+    main {
+        height: 120%;
+        grid-template-rows: 90% auto;
+    }
