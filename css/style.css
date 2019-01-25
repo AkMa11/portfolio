@@ -49,8 +49,21 @@ main nav ul {
 }
 
 main nav ul li {
-    padding: 0 2em 0 2em;
+    padding: 2em 2em 0 2em;
     width: 8.5em;
+    transition: background-color 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+main nav ul li:hover{
+    /* background-color: #dbefff; */
+    background-image: linear-gradient( #cef4ff, #ffdcff);
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+a:link{
+    text-decoration: none;
 }
 
 main nav ul li p {
