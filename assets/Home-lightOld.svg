@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Home-light);
+      }
+
+      .cls-2 {
+        opacity: 0.05;
+      }
+
+      .cls-3 {
+        fill: #fbfbfb;
+      }
+
+      .cls-4 {
+        fill: #333;
+      }
+
+      .cls-5 {
+        fill: #94d0ff;
+      }
+
+      .cls-6 {
+        filter: url(#Path_1);
+      }
+    </style>
+    <filter id="Path_1" x="-10.03" y="371.857" width="1950.084" height="720.174" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Home-light">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Home-light" class="cls-1">
+    <rect class="cls-5" width="1920" height="1080"/>
+    <g id="Logo_rewised" data-name="Logo rewised" class="cls-2" transform="translate(-9 -61.245)">
+      <path id="Path_3" data-name="Path 3" d="M1550.083,59.1,1412.829,196.355C1608.935,335.564,1737,564.322,1737,823.19c0,424.082-343.919,768-768,768s-768-343.919-768-768c0-258.868,128.065-487.625,324.171-626.835L387.917,59.1C157.595,234.481,9,511.532,9,823.19c0,530.248,429.752,960,960,960s960-429.751,960-960C1929,511.532,1780.405,234.481,1550.083,59.1Z" transform="translate(0)"/>
+      <path id="Path_4" data-name="Path 4" d="M446.083,152.8h0C261.318,279.692,139.9,492.613,139.9,733.688c0,217.027,98.151,411.177,252.611,540.22L529.179,1137.24c-96-74.884-164.627-183.4-188.09-307.552H1347.036c-23.658,124.35-92.285,232.668-188.09,307.552l136.668,136.668c154.46-129.043,252.611-323.193,252.611-540.22,0-241.075-121.222-454-306.183-580.888H446.083Zm900.758,484.888H341.089C369.049,490.266,460.161,365.33,585.1,292.01L843.965,550.682,1102.833,292.01C1227.77,365.33,1318.882,490.266,1346.841,637.688Z" transform="translate(125.035 89.502)"/>
+    </g>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Path_1-2" data-name="Path 1" class="cls-3" d="M1080.317,0c418.243,0,780.772,181.614,960.053,447.09-.007-.025-.019,243.055-.019,243.055l-1920.05.03s-.06-243.334.061-243.4C300.371,181.224,662.667,0,1080.317,0Z" transform="translate(-120.32 389.86)"/>
+    </g>
+    <g id="Logo_rewised-2" data-name="Logo rewised">
+      <path id="Path_5" data-name="Path 5" class="cls-4" d="M268.064,59.1,244.991,82.173a129.1,129.1,0,1,1-149.22,0L72.7,59.1a161.381,161.381,0,1,0,195.366,0Z" transform="translate(789.619 -9.114)"/>
+      <path id="Path_6" data-name="Path 6" class="cls-4" d="M191.371,152.8h0a118.353,118.353,0,0,0-9.006,188.464L205.34,318.29a85.9,85.9,0,0,1-31.619-51.7H342.826a86.113,86.113,0,0,1-31.619,51.7l22.975,22.975A118.353,118.353,0,0,0,325.176,152.8h-133.8Zm151.422,81.512H173.721A86.1,86.1,0,0,1,214.74,176.2l43.517,43.484L301.774,176.2A86.1,86.1,0,0,1,342.793,234.312Z" transform="translate(701.743 -72.017)"/>
+    </g>
+  </g>
+</svg>

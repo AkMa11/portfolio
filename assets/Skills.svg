@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #008fff;
+      }
+
+      .cls-2 {
+        fill: #94d0ff;
+      }
+    </style>
+  </defs>
+  <g id="Skills" transform="translate(-570.491 -794)">
+    <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-1" width="25" height="120" transform="translate(570.491 794)"/>
+    <rect id="Rectangle_11-2" data-name="Rectangle 11" class="cls-2" width="25" height="60" transform="translate(612.491 854)"/>
+    <rect id="Rectangle_11-3" data-name="Rectangle 11" class="cls-1" width="25" height="97" transform="translate(654.491 817)"/>
+    <rect id="Rectangle_11-4" data-name="Rectangle 11" class="cls-2" width="25" height="120" transform="translate(696.491 794)"/>
+  </g>
+</svg>

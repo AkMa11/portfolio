@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <title>Amodh Naik Portfolio | Home</title>
+</head>
+
+<body>
+    <main>
+        <div class="text">
+            <div>
+                <span class="hello">Hello World;</span><br>
+                <!-- <span>I am Amodh Naik </span> -->
+                <div id="typed-strings">
+                    <p>I am <strong>Amodh Naik</strong>^1500</p>
+                    <p>I am a <strong>full stack web app developer</strong>^1500</p>
+                    <p>I am a budding <strong>photographer</strong>^1500</p>
+                    <p>To know more about me,<br> Please <strong>select from options below</strong>^3000</p>
+                </div>
+                <span id="typed"></span>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <img id="image" src="./assets/About.svg" alt="About">
+                    <p>About</p>
+                </li>
+                <li>
+                    <img src="./assets/Skills.svg" alt="Skills">
+                    <p>Skills</p>
+                </li>
+                <li>
+                    <img src="./assets/Projects.svg" alt="Projects">
+                    <p>Projects</p>
+                </li>
+                <li>
+                    <img src="./assets/Photography.svg" alt="Photography">
+                    <p>Photography</p>
+                </li>
+                <li>
+                    <img src="./assets/Contact.svg" alt="Contact">
+                    <p>Contact</p>
+                </li>
+            </ul>
+        </nav>
+    </main>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            backSpeed: 25,
+            typeSpeed: 50,
+            startDelay: 500,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
